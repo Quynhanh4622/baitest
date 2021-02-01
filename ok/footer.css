@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#footer{
+    padding: 64px 16px;
+    text-align: center;
+}
+#footer .socials-list {
+    font-size: 24px;
+}
+#footer .socials-list a {
+    color: rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+
+}
+#footer .copyright a:hover,
+#footer .socials-list a:hover {
+    color: rgba(0, 0, 0, 0.4);
+}
+#footer .copyright {
+    margin-top: 15px;
+    color: rgba(0, 0, 0, 0.6);
+
+}
+#footer .copyright a{
+    color: rgba(0, 0, 0, 0.6);
+}
+
+/*NEW FOOTER*/
+.con{
+    background-color: #000;
+    width: 100%;
+    color: #fff;
+}
+.con1{
+    text-align: center;
+    /*margin: 180px 0 25px;*/
+    padding-bottom: 30px;
+}
+.a1{
+    float: left;
+    width:33.33333%;
+    color: #fff;
+}
+.a2{
+    width: 100%;
+    display: inline-block;
+}
+.a2 img{
+
+    width: 14.28555%;
+    height: auto;
+    float: left;
+}
+.con3 {
+
+    width: 800px;
+    height: 320px;
+    padding: 64px 0 112px ;
+    margin-left:auto;
+    margin-right: auto;
+    background-color: #000;
+}
+#icon {
+    width: 100%;
+    background: #000;
+    height:40px;
+}
+#icon ul{
+    width:100%;
+    list-style-type:none;
+    background: #000;
+    text-align:center;/*cột ra giữa*/
+    /*overflow:hidden;*/
+}
+#icon ul li {
+    color: #f1f1f1;
+    display:inline-table; /*làm menu ngang*/
+    width: 120px;
+    height: 40px;
+    line-height:40px;/*căn chiều cao ra giữa*/
+    position:relative; /* giúp không bị tác động bên ngoài hoặc trong phần tử con */
+}
+#icon ul li a{
+    text-align:center;
+    color: #f1f1f1;
+    text-decoration: none;/*mất đi màu chữ*/
+    display:block;
+}
+#icon ul li a:hover{
+    background:#f1f1f1;
+    color:#333;
+}
+.footer-opacity:hover {
+    opacity: 0.6;
+}

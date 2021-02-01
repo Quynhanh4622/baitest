@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.item{
+    width:100%;
+    padding-top:80px;
+}
+.item ul{
+    list-style-type:none;
+    background:;
+    text-align:center;
+    /*overflow:hidden;*/
+}
+.item ul li{
+    color: #f1f1f1;
+    display:inline-table; /*làm menu ngang*/
+    width: 33.33333%;
+    height: 40px;
+    margin-right:1px;
+    line-height:auto;/*căn chiều cao ra giữa*/
+    /*position:relative; /* giúp không bị tác động bên ngoài hoặc trong phần tử con */
+}
+.item ul li a{
+    background:#f2f2f2;
+    color: #333;
+    text-decoration: none;/*mất đi dấu gạch chân dưới chữ*/
+    display:block;
+}
+.item ul li a:hover{
+    background:#00ffff;
+    color:red;
+}
+#item1{
+    padding-top:40px;
+    width:100%;
+}
+
+.hello1{
+    color:blue;
+    padding-bottom:60px;
+    text-align:center;
+}
+h3{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+
+
